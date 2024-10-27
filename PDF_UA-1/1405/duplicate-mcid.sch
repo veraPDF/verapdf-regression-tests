@@ -23,8 +23,8 @@
         </sch:rule>
 
         <sch:rule context="/report/jobs/job/logs/logMessage">
-            <sch:assert test='(contains(., "Content stream contains duplicate MCID - 23") and @occurrences = "1" and @level = "WARNING")'>Invalid logs, Expected: 
-            'WARNING: Content stream contains duplicate MCID - 23' with 1 occurrences</sch:assert>
+            <sch:assert test='(contains(., "Duplicate MCID - 23") and @occurrences = "1" and @level = "WARNING")'>Invalid logs, Expected: 
+            'WARNING: Duplicate MCID - 23' with 1 occurrences</sch:assert>
         </sch:rule>
     </sch:pattern>
 
