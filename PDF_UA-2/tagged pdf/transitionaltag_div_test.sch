@@ -13,7 +13,7 @@
 
     <sch:pattern name = "Checking the validationReport: rules">
         <sch:rule context="/report/jobs/job/validationReport/details">
-            <sch:assert test="(@failedRules = '1650')">Failed check, Expected: 1650</sch:assert>	
+            <sch:assert test="(@failedRules = '1631')">Failed check, Expected: 1631</sch:assert>	
         </sch:rule>
 
     </sch:pattern>
@@ -78,7 +78,7 @@
             (@clause = 'L-Annot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'LI-Annot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Annot' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Annot' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Annot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Annot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Annot' and @testNumber = '1' and @failedChecks = '2') or 
@@ -91,7 +91,7 @@
             L-Annot-1, 2 checks, or 
             LI-Annot-1, 2 checks, or 
             Ruby-Annot-1, 2 checks, or 
-            StructTreeRoot-Annot-1, 5 checks, or 
+            StructTreeRoot-Annot-1, 7 checks, or 
             TBody-Annot-1, 2 checks, or 
             TFoot-Annot-1, 2 checks, or 
             THead-Annot-1, 2 checks, or 
@@ -128,7 +128,7 @@
             (@clause = 'Ruby-Art' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-Art' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Art' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Art' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-Art' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-Art' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Art' and @testNumber = '1' and @failedChecks = '2') or 
@@ -161,7 +161,7 @@
             Ruby-Art-1, 2 checks, or 
             Span-Art-1, 2 checks, or 
             Strong-Art-1, 2 checks, or 
-            StructTreeRoot-Art-1, 5 checks, or 
+            StructTreeRoot-Art-1, 7 checks, or 
             Sub-Art-1, 2 checks, or 
             TBody-Art-1, 2 checks, or 
             TFoot-Art-1, 2 checks, or 
@@ -185,12 +185,12 @@
             (@clause = 'Artifact-Caption' and @testNumber = '1' and @failedChecks = '1') or 
             (@clause = 'Artifact-H' and @testNumber = '1' and @failedChecks = '1') or 
             (@clause = 'Ruby-Artifact' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Artifact' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Artifact' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Warichu-Artifact' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Artifact-Caption-1, 1 check, or 
             Artifact-H-1, 1 check, or 
             Ruby-Artifact-1, 2 checks, or 
-            StructTreeRoot-Artifact-1, 5 checks, or 
+            StructTreeRoot-Artifact-1, 7 checks, or 
             Warichu-Artifact-1, 2 checks</sch:assert>
         </sch:rule>
 
@@ -223,7 +223,7 @@
             (@clause = 'Ruby-Aside' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-Aside' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Aside' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Aside' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-Aside' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-Aside' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-Aside' and @testNumber = '1' and @failedChecks = '2') or 
@@ -260,7 +260,7 @@
             Ruby-Aside-1, 2 checks, or 
             Span-Aside-1, 2 checks, or 
             Strong-Aside-1, 2 checks, or 
-            StructTreeRoot-Aside-1, 5 checks, or 
+            StructTreeRoot-Aside-1, 7 checks, or 
             Sub-Aside-1, 2 checks, or 
             TBody-Aside-1, 2 checks, or 
             TD-Aside-1, 2 checks, or 
@@ -297,7 +297,7 @@
             (@clause = 'RT-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Sect-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-BibEntry' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-BibEntry' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
@@ -323,7 +323,7 @@
             RT-BibEntry-1, 2 checks, or 
             Ruby-BibEntry-1, 2 checks, or 
             Sect-BibEntry-1, 2 checks, or 
-            StructTreeRoot-BibEntry-1, 5 checks, or 
+            StructTreeRoot-BibEntry-1, 7 checks, or 
             TBody-BibEntry-1, 2 checks, or 
             TFoot-BibEntry-1, 2 checks, or 
             THead-BibEntry-1, 2 checks, or 
@@ -363,7 +363,7 @@
             (@clause = 'Ruby-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-BlockQuote' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-BlockQuote' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
@@ -399,7 +399,7 @@
             Ruby-BlockQuote-1, 2 checks, or 
             Span-BlockQuote-1, 2 checks, or 
             Strong-BlockQuote-1, 2 checks, or 
-            StructTreeRoot-BlockQuote-1, 5 checks, or 
+            StructTreeRoot-BlockQuote-1, 7 checks, or 
             Sub-BlockQuote-1, 2 checks, or 
             TBody-BlockQuote-1, 2 checks, or 
             TD-BlockQuote-1, 2 checks, or 
@@ -442,7 +442,7 @@
             (@clause = 'Ruby-Caption' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-Caption' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Caption' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Caption' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-Caption' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-Caption' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-Caption' and @testNumber = '1' and @failedChecks = '2') or 
@@ -474,7 +474,7 @@
             Ruby-Caption-1, 2 checks, or 
             Span-Caption-1, 2 checks, or 
             Strong-Caption-1, 2 checks, or 
-            StructTreeRoot-Caption-1, 5 checks, or 
+            StructTreeRoot-Caption-1, 7 checks, or 
             Sub-Caption-1, 2 checks, or 
             TBody-Caption-1, 2 checks, or 
             TD-Caption-1, 2 checks, or 
@@ -504,7 +504,7 @@
             (@clause = 'RT-Code' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Reference-Code' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Code' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Code' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Code' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Code' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Code' and @testNumber = '1' and @failedChecks = '2') or 
@@ -525,7 +525,7 @@
             RT-Code-1, 2 checks, or 
             Reference-Code-1, 2 checks, or 
             Ruby-Code-1, 2 checks, or 
-            StructTreeRoot-Code-1, 5 checks, or 
+            StructTreeRoot-Code-1, 7 checks, or 
             TBody-Code-1, 2 checks, or 
             TFoot-Code-1, 2 checks, or 
             THead-Code-1, 2 checks, or 
@@ -559,7 +559,7 @@
             (@clause = 'Ruby-Div' and @testNumber = '1' and @failedChecks = '4') or 
             (@clause = 'Span-Div' and @testNumber = '1' and @failedChecks = '4') or 
             (@clause = 'Strong-Div' and @testNumber = '1' and @failedChecks = '4') or 
-            (@clause = 'StructTreeRoot-Div' and @testNumber = '1' and @failedChecks = '9') or 
+            (@clause = 'StructTreeRoot-Div' and @testNumber = '1' and @failedChecks = '13') or 
             (@clause = 'Sub-Div' and @testNumber = '1' and @failedChecks = '4') or 
             (@clause = 'TBody-Div' and @testNumber = '1' and @failedChecks = '4') or 
             (@clause = 'TFoot-Div' and @testNumber = '1' and @failedChecks = '4') or 
@@ -585,7 +585,7 @@
             Ruby-Div-1, 4 checks, or 
             Span-Div-1, 4 checks, or 
             Strong-Div-1, 4 checks, or 
-            StructTreeRoot-Div-1, 9 checks, or 
+            StructTreeRoot-Div-1, 13 checks, or 
             Sub-Div-1, 4 checks, or 
             TBody-Div-1, 4 checks, or 
             TFoot-Div-1, 4 checks, or 
@@ -722,7 +722,7 @@
             (@clause = 'Ruby-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-DocumentFragment' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-DocumentFragment' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
@@ -759,7 +759,7 @@
             Ruby-DocumentFragment-1, 2 checks, or 
             Span-DocumentFragment-1, 2 checks, or 
             Strong-DocumentFragment-1, 2 checks, or 
-            StructTreeRoot-DocumentFragment-1, 5 checks, or 
+            StructTreeRoot-DocumentFragment-1, 7 checks, or 
             Sub-DocumentFragment-1, 2 checks, or 
             TBody-DocumentFragment-1, 2 checks, or 
             TD-DocumentFragment-1, 2 checks, or 
@@ -791,10 +791,9 @@
             (@clause = 'Index-Em' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'L-Em' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'LI-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-Em' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Em' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Sect-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Em' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Em' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Em' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Em' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Em' and @testNumber = '1' and @failedChecks = '2') or 
@@ -812,10 +811,9 @@
             Index-Em-1, 2 checks, or 
             L-Em-1, 2 checks, or 
             LI-Em-1, 2 checks, or 
-            Part-Em-1, 2 checks, or 
             Ruby-Em-1, 2 checks, or 
             Sect-Em-1, 2 checks, or 
-            StructTreeRoot-Em-1, 5 checks, or 
+            StructTreeRoot-Em-1, 7 checks, or 
             TBody-Em-1, 2 checks, or 
             TFoot-Em-1, 2 checks, or 
             THead-Em-1, 2 checks, or 
@@ -838,7 +836,7 @@
             (@clause = 'RP-FENote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RT-FENote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-FENote' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-FENote' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-FENote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-FENote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-FENote' and @testNumber = '1' and @failedChecks = '2') or 
@@ -855,7 +853,7 @@
             RP-FENote-1, 2 checks, or 
             RT-FENote-1, 2 checks, or 
             Ruby-FENote-1, 2 checks, or 
-            StructTreeRoot-FENote-1, 5 checks, or 
+            StructTreeRoot-FENote-1, 7 checks, or 
             TBody-FENote-1, 2 checks, or 
             TFoot-FENote-1, 2 checks, or 
             THead-FENote-1, 2 checks, or 
@@ -884,7 +882,7 @@
             (@clause = 'RP-Figure' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RT-Figure' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Figure' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Figure' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Figure' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Figure' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Figure' and @testNumber = '1' and @failedChecks = '2') or 
@@ -905,7 +903,7 @@
             RP-Figure-1, 2 checks, or 
             RT-Figure-1, 2 checks, or 
             Ruby-Figure-1, 2 checks, or 
-            StructTreeRoot-Figure-1, 5 checks, or 
+            StructTreeRoot-Figure-1, 7 checks, or 
             TBody-Figure-1, 2 checks, or 
             TFoot-Figure-1, 2 checks, or 
             THead-Figure-1, 2 checks, or 
@@ -933,7 +931,7 @@
             (@clause = 'LI-Form' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Reference-Form' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Form' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Form' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Form' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Form' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Form' and @testNumber = '1' and @failedChecks = '2') or 
@@ -951,7 +949,7 @@
             LI-Form-1, 2 checks, or 
             Reference-Form-1, 2 checks, or 
             Ruby-Form-1, 2 checks, or 
-            StructTreeRoot-Form-1, 5 checks, or 
+            StructTreeRoot-Form-1, 7 checks, or 
             TBody-Form-1, 2 checks, or 
             TFoot-Form-1, 2 checks, or 
             THead-Form-1, 2 checks, or 
@@ -979,7 +977,7 @@
             (@clause = 'RT-Formula' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Reference-Formula' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Formula' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Formula' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Formula' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Formula' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Formula' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1001,7 +999,7 @@
             RT-Formula-1, 2 checks, or 
             Reference-Formula-1, 2 checks, or 
             Ruby-Formula-1, 2 checks, or 
-            StructTreeRoot-Formula-1, 5 checks, or 
+            StructTreeRoot-Formula-1, 7 checks, or 
             TBody-Formula-1, 2 checks, or 
             TFoot-Formula-1, 2 checks, or 
             THead-Formula-1, 2 checks, or 
@@ -1043,7 +1041,7 @@
             (@clause = 'Ruby-H' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-H' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-H' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-H' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-H' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-H' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-H' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1079,7 +1077,7 @@
             Ruby-H-1, 2 checks, or 
             Span-H-1, 2 checks, or 
             Strong-H-1, 2 checks, or 
-            StructTreeRoot-H-1, 5 checks, or 
+            StructTreeRoot-H-1, 7 checks, or 
             Sub-H-1, 2 checks, or 
             TBody-H-1, 2 checks, or 
             TFoot-H-1, 2 checks, or 
@@ -1122,7 +1120,7 @@
             (@clause = 'Ruby-Hn' and @testNumber = '1' and @failedChecks = '12') or 
             (@clause = 'Span-Hn' and @testNumber = '1' and @failedChecks = '12') or 
             (@clause = 'Strong-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'StructTreeRoot-Hn' and @testNumber = '1' and @failedChecks = '30') or 
+            (@clause = 'StructTreeRoot-Hn' and @testNumber = '1' and @failedChecks = '42') or 
             (@clause = 'Sub-Hn' and @testNumber = '1' and @failedChecks = '12') or 
             (@clause = 'TBody-Hn' and @testNumber = '1' and @failedChecks = '12') or 
             (@clause = 'TFoot-Hn' and @testNumber = '1' and @failedChecks = '12') or 
@@ -1157,7 +1155,7 @@
             Ruby-Hn-1, 12 checks, or 
             Span-Hn-1, 12 checks, or 
             Strong-Hn-1, 12 checks, or 
-            StructTreeRoot-Hn-1, 30 checks, or 
+            StructTreeRoot-Hn-1, 42 checks, or 
             Sub-Hn-1, 12 checks, or 
             TBody-Hn-1, 12 checks, or 
             TFoot-Hn-1, 12 checks, or 
@@ -1200,7 +1198,7 @@
             (@clause = 'Ruby-Index' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-Index' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Index' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Index' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-Index' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-Index' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Index' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1235,7 +1233,7 @@
             Ruby-Index-1, 2 checks, or 
             Span-Index-1, 2 checks, or 
             Strong-Index-1, 2 checks, or 
-            StructTreeRoot-Index-1, 5 checks, or 
+            StructTreeRoot-Index-1, 7 checks, or 
             Sub-Index-1, 2 checks, or 
             TBody-Index-1, 2 checks, or 
             TFoot-Index-1, 2 checks, or 
@@ -1272,7 +1270,7 @@
             (@clause = 'Ruby-L' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-L' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-L' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-L' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-L' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-L' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-L' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1299,7 +1297,7 @@
             Ruby-L-1, 2 checks, or 
             Span-L-1, 2 checks, or 
             Strong-L-1, 2 checks, or 
-            StructTreeRoot-L-1, 5 checks, or 
+            StructTreeRoot-L-1, 7 checks, or 
             TBody-L-1, 2 checks, or 
             TFoot-L-1, 2 checks, or 
             THead-L-1, 2 checks, or 
@@ -1343,7 +1341,6 @@
             (@clause = 'Link-LBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-LBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-LBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-LBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-LBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-LBody' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1353,7 +1350,7 @@
             (@clause = 'Sect-LBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-LBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-LBody' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-LBody' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-LBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-LBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-LBody' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1393,7 +1390,6 @@
             Link-LBody-1, 2 checks, or 
             Note-LBody-1, 2 checks, or 
             P-LBody-1, 2 checks, or 
-            Part-LBody-1, 2 checks, or 
             Quote-LBody-1, 2 checks, or 
             RB-LBody-1, 2 checks, or 
             RP-LBody-1, 2 checks, or 
@@ -1403,7 +1399,7 @@
             Sect-LBody-1, 2 checks, or 
             Span-LBody-1, 2 checks, or 
             Strong-LBody-1, 2 checks, or 
-            StructTreeRoot-LBody-1, 5 checks, or 
+            StructTreeRoot-LBody-1, 7 checks, or 
             Sub-LBody-1, 2 checks, or 
             TBody-LBody-1, 2 checks, or 
             TD-LBody-1, 2 checks, or 
@@ -1449,7 +1445,6 @@
             (@clause = 'Link-LI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-LI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-LI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-LI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-LI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-LI' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1459,7 +1454,7 @@
             (@clause = 'Sect-LI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-LI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-LI' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-LI' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-LI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-LI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-LI' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1497,7 +1492,6 @@
             Link-LI-1, 2 checks, or 
             Note-LI-1, 2 checks, or 
             P-LI-1, 2 checks, or 
-            Part-LI-1, 2 checks, or 
             Quote-LI-1, 2 checks, or 
             RB-LI-1, 2 checks, or 
             RP-LI-1, 2 checks, or 
@@ -1507,7 +1501,7 @@
             Sect-LI-1, 2 checks, or 
             Span-LI-1, 2 checks, or 
             Strong-LI-1, 2 checks, or 
-            StructTreeRoot-LI-1, 5 checks, or 
+            StructTreeRoot-LI-1, 7 checks, or 
             Sub-LI-1, 2 checks, or 
             TBody-LI-1, 2 checks, or 
             TD-LI-1, 2 checks, or 
@@ -1541,7 +1535,7 @@
             (@clause = 'RP-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RT-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Lbl' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Lbl' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1562,7 +1556,7 @@
             RP-Lbl-1, 2 checks, or 
             RT-Lbl-1, 2 checks, or 
             Ruby-Lbl-1, 2 checks, or 
-            StructTreeRoot-Lbl-1, 5 checks, or 
+            StructTreeRoot-Lbl-1, 7 checks, or 
             TBody-Lbl-1, 2 checks, or 
             TFoot-Lbl-1, 2 checks, or 
             THead-Lbl-1, 2 checks, or 
@@ -1586,7 +1580,7 @@
             (@clause = 'LI-Link' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Link-Link' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Link' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Link' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Link' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Link' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Link' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1601,7 +1595,7 @@
             LI-Link-1, 2 checks, or 
             Link-Link-1, 2 checks, or 
             Ruby-Link-1, 2 checks, or 
-            StructTreeRoot-Link-1, 5 checks, or 
+            StructTreeRoot-Link-1, 7 checks, or 
             TBody-Link-1, 2 checks, or 
             TFoot-Link-1, 2 checks, or 
             THead-Link-1, 2 checks, or 
@@ -1618,8 +1612,8 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SENonStruct' or
-            (@clause = 'StructTreeRoot-NonStruct' and @testNumber = '1' and @failedChecks = '5')">Failed rules, Expected: 
-            StructTreeRoot-NonStruct-1, 5 checks</sch:assert>
+            (@clause = 'StructTreeRoot-NonStruct' and @testNumber = '1' and @failedChecks = '7')">Failed rules, Expected: 
+            StructTreeRoot-NonStruct-1, 7 checks</sch:assert>
         </sch:rule>
 
     </sch:pattern>
@@ -1635,7 +1629,7 @@
             (@clause = 'RP-Note' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RT-Note' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Note' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Note' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Note' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Note' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Note' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1653,7 +1647,7 @@
             RP-Note-1, 2 checks, or 
             RT-Note-1, 2 checks, or 
             Ruby-Note-1, 2 checks, or 
-            StructTreeRoot-Note-1, 5 checks, or 
+            StructTreeRoot-Note-1, 7 checks, or 
             TBody-Note-1, 2 checks, or 
             TFoot-Note-1, 2 checks, or 
             THead-Note-1, 2 checks, or 
@@ -1689,7 +1683,7 @@
             (@clause = 'Ruby-P' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-P' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-P' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-P' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-P' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-P' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-P' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1717,7 +1711,7 @@
             Ruby-P-1, 2 checks, or 
             Span-P-1, 2 checks, or 
             Strong-P-1, 2 checks, or 
-            StructTreeRoot-P-1, 5 checks, or 
+            StructTreeRoot-P-1, 7 checks, or 
             Sub-P-1, 2 checks, or 
             TBody-P-1, 2 checks, or 
             TFoot-P-1, 2 checks, or 
@@ -1751,7 +1745,7 @@
             (@clause = 'Ruby-Part' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-Part' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Part' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Part' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-Part' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-Part' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-Part' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1780,7 +1774,7 @@
             Ruby-Part-1, 2 checks, or 
             Span-Part-1, 2 checks, or 
             Strong-Part-1, 2 checks, or 
-            StructTreeRoot-Part-1, 5 checks, or 
+            StructTreeRoot-Part-1, 7 checks, or 
             Sub-Part-1, 2 checks, or 
             TBody-Part-1, 2 checks, or 
             TD-Part-1, 2 checks, or 
@@ -1803,9 +1797,9 @@
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEPrivate' or
             (@clause = 'Annot-Private' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Private' and @testNumber = '1' and @failedChecks = '5')">Failed rules, Expected: 
+            (@clause = 'StructTreeRoot-Private' and @testNumber = '1' and @failedChecks = '7')">Failed rules, Expected: 
             Annot-Private-1, 2 checks, or 
-            StructTreeRoot-Private-1, 5 checks</sch:assert>
+            StructTreeRoot-Private-1, 7 checks</sch:assert>
         </sch:rule>
 
     </sch:pattern>
@@ -1825,11 +1819,10 @@
             (@clause = 'Index-Quote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'L-Quote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'LI-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-Quote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Reference-Quote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Quote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Sect-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Quote' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Quote' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Quote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Quote' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Quote' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1849,11 +1842,10 @@
             Index-Quote-1, 2 checks, or 
             L-Quote-1, 2 checks, or 
             LI-Quote-1, 2 checks, or 
-            Part-Quote-1, 2 checks, or 
             Reference-Quote-1, 2 checks, or 
             Ruby-Quote-1, 2 checks, or 
             Sect-Quote-1, 2 checks, or 
-            StructTreeRoot-Quote-1, 5 checks, or 
+            StructTreeRoot-Quote-1, 7 checks, or 
             TBody-Quote-1, 2 checks, or 
             TFoot-Quote-1, 2 checks, or 
             THead-Quote-1, 2 checks, or 
@@ -1894,7 +1886,6 @@
             (@clause = 'Link-RB' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-RB' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-RB' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-RB' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-RB' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-RB' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1903,7 +1894,7 @@
             (@clause = 'Sect-RB' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-RB' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-RB' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-RB' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-RB' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-RB' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-RB' and @testNumber = '1' and @failedChecks = '2') or 
@@ -1942,7 +1933,6 @@
             Link-RB-1, 2 checks, or 
             Note-RB-1, 2 checks, or 
             P-RB-1, 2 checks, or 
-            Part-RB-1, 2 checks, or 
             Quote-RB-1, 2 checks, or 
             RB-RB-1, 2 checks, or 
             RP-RB-1, 2 checks, or 
@@ -1951,7 +1941,7 @@
             Sect-RB-1, 2 checks, or 
             Span-RB-1, 2 checks, or 
             Strong-RB-1, 2 checks, or 
-            StructTreeRoot-RB-1, 5 checks, or 
+            StructTreeRoot-RB-1, 7 checks, or 
             Sub-RB-1, 2 checks, or 
             TBody-RB-1, 2 checks, or 
             TD-RB-1, 2 checks, or 
@@ -1998,7 +1988,6 @@
             (@clause = 'Link-RP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-RP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-RP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-RP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-RP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-RP' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2007,7 +1996,7 @@
             (@clause = 'Sect-RP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-RP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-RP' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-RP' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-RP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-RP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-RP' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2046,7 +2035,6 @@
             Link-RP-1, 2 checks, or 
             Note-RP-1, 2 checks, or 
             P-RP-1, 2 checks, or 
-            Part-RP-1, 2 checks, or 
             Quote-RP-1, 2 checks, or 
             RB-RP-1, 2 checks, or 
             RP-RP-1, 2 checks, or 
@@ -2055,7 +2043,7 @@
             Sect-RP-1, 2 checks, or 
             Span-RP-1, 2 checks, or 
             Strong-RP-1, 2 checks, or 
-            StructTreeRoot-RP-1, 5 checks, or 
+            StructTreeRoot-RP-1, 7 checks, or 
             Sub-RP-1, 2 checks, or 
             TBody-RP-1, 2 checks, or 
             TD-RP-1, 2 checks, or 
@@ -2102,7 +2090,6 @@
             (@clause = 'Link-RT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-RT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-RT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-RT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-RT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-RT' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2111,7 +2098,7 @@
             (@clause = 'Sect-RT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-RT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-RT' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-RT' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-RT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-RT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-RT' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2150,7 +2137,6 @@
             Link-RT-1, 2 checks, or 
             Note-RT-1, 2 checks, or 
             P-RT-1, 2 checks, or 
-            Part-RT-1, 2 checks, or 
             Quote-RT-1, 2 checks, or 
             RB-RT-1, 2 checks, or 
             RP-RT-1, 2 checks, or 
@@ -2159,7 +2145,7 @@
             Sect-RT-1, 2 checks, or 
             Span-RT-1, 2 checks, or 
             Strong-RT-1, 2 checks, or 
-            StructTreeRoot-RT-1, 5 checks, or 
+            StructTreeRoot-RT-1, 7 checks, or 
             Sub-RT-1, 2 checks, or 
             TBody-RT-1, 2 checks, or 
             TD-RT-1, 2 checks, or 
@@ -2190,7 +2176,7 @@
             (@clause = 'Reference-Reference' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Reference' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Sect-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Reference' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Reference' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Reference' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Reference' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Reference' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2206,7 +2192,7 @@
             Reference-Reference-1, 2 checks, or 
             Ruby-Reference-1, 2 checks, or 
             Sect-Reference-1, 2 checks, or 
-            StructTreeRoot-Reference-1, 5 checks, or 
+            StructTreeRoot-Reference-1, 7 checks, or 
             TBody-Reference-1, 2 checks, or 
             TFoot-Reference-1, 2 checks, or 
             THead-Reference-1, 2 checks, or 
@@ -2234,14 +2220,13 @@
             (@clause = 'Index-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'L-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'LI-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RT-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Reference-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Sect-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Ruby' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Ruby' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2264,14 +2249,13 @@
             Index-Ruby-1, 2 checks, or 
             L-Ruby-1, 2 checks, or 
             LI-Ruby-1, 2 checks, or 
-            Part-Ruby-1, 2 checks, or 
             RB-Ruby-1, 2 checks, or 
             RP-Ruby-1, 2 checks, or 
             RT-Ruby-1, 2 checks, or 
             Reference-Ruby-1, 2 checks, or 
             Ruby-Ruby-1, 2 checks, or 
             Sect-Ruby-1, 2 checks, or 
-            StructTreeRoot-Ruby-1, 5 checks, or 
+            StructTreeRoot-Ruby-1, 7 checks, or 
             TBody-Ruby-1, 2 checks, or 
             TFoot-Ruby-1, 2 checks, or 
             THead-Ruby-1, 2 checks, or 
@@ -2308,7 +2292,7 @@
             (@clause = 'Sect-H' and @testNumber = '1' and @failedChecks = '1') or 
             (@clause = 'Span-Sect' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Sect' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Sect' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-Sect' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-Sect' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Sect' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2339,7 +2323,7 @@
             Sect-H-1, 1 check, or 
             Span-Sect-1, 2 checks, or 
             Strong-Sect-1, 2 checks, or 
-            StructTreeRoot-Sect-1, 5 checks, or 
+            StructTreeRoot-Sect-1, 7 checks, or 
             Sub-Sect-1, 2 checks, or 
             TBody-Sect-1, 2 checks, or 
             TFoot-Sect-1, 2 checks, or 
@@ -2379,10 +2363,9 @@
             (@clause = 'Index-Span' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'L-Span' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'LI-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-Span' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Span' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Sect-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Span' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Span' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Span' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Span' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Span' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2400,10 +2383,9 @@
             Index-Span-1, 2 checks, or 
             L-Span-1, 2 checks, or 
             LI-Span-1, 2 checks, or 
-            Part-Span-1, 2 checks, or 
             Ruby-Span-1, 2 checks, or 
             Sect-Span-1, 2 checks, or 
-            StructTreeRoot-Span-1, 5 checks, or 
+            StructTreeRoot-Span-1, 7 checks, or 
             TBody-Span-1, 2 checks, or 
             TFoot-Span-1, 2 checks, or 
             THead-Span-1, 2 checks, or 
@@ -2429,10 +2411,9 @@
             (@clause = 'Index-Strong' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'L-Strong' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'LI-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-Strong' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Strong' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Sect-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Strong' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Strong' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Strong' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Strong' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Strong' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2450,10 +2431,9 @@
             Index-Strong-1, 2 checks, or 
             L-Strong-1, 2 checks, or 
             LI-Strong-1, 2 checks, or 
-            Part-Strong-1, 2 checks, or 
             Ruby-Strong-1, 2 checks, or 
             Sect-Strong-1, 2 checks, or 
-            StructTreeRoot-Strong-1, 5 checks, or 
+            StructTreeRoot-Strong-1, 7 checks, or 
             TBody-Strong-1, 2 checks, or 
             TFoot-Strong-1, 2 checks, or 
             THead-Strong-1, 2 checks, or 
@@ -2483,7 +2463,7 @@
             (@clause = 'Reference-Sub' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Sub' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Sect-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Sub' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Sub' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-Sub' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-Sub' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-Sub' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2509,7 +2489,7 @@
             Reference-Sub-1, 2 checks, or 
             Ruby-Sub-1, 2 checks, or 
             Sect-Sub-1, 2 checks, or 
-            StructTreeRoot-Sub-1, 5 checks, or 
+            StructTreeRoot-Sub-1, 7 checks, or 
             Sub-Sub-1, 2 checks, or 
             TBody-Sub-1, 2 checks, or 
             TD-Sub-1, 2 checks, or 
@@ -2554,7 +2534,6 @@
             (@clause = 'Link-TBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-TBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-TBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-TBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-TBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-TBody' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2564,7 +2543,7 @@
             (@clause = 'Sect-TBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-TBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TBody' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-TBody' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-TBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-TBody' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-TBody' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2602,7 +2581,6 @@
             Link-TBody-1, 2 checks, or 
             Note-TBody-1, 2 checks, or 
             P-TBody-1, 2 checks, or 
-            Part-TBody-1, 2 checks, or 
             Quote-TBody-1, 2 checks, or 
             RB-TBody-1, 2 checks, or 
             RP-TBody-1, 2 checks, or 
@@ -2612,7 +2590,7 @@
             Sect-TBody-1, 2 checks, or 
             Span-TBody-1, 2 checks, or 
             Strong-TBody-1, 2 checks, or 
-            StructTreeRoot-TBody-1, 5 checks, or 
+            StructTreeRoot-TBody-1, 7 checks, or 
             Sub-TBody-1, 2 checks, or 
             TBody-TBody-1, 2 checks, or 
             TD-TBody-1, 2 checks, or 
@@ -2658,7 +2636,6 @@
             (@clause = 'Link-TD' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-TD' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-TD' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-TD' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-TD' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-TD' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2668,7 +2645,7 @@
             (@clause = 'Sect-TD' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-TD' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TD' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-TD' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-TD' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-TD' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-H' and @testNumber = '1' and @failedChecks = '1') or 
@@ -2707,7 +2684,6 @@
             Link-TD-1, 2 checks, or 
             Note-TD-1, 2 checks, or 
             P-TD-1, 2 checks, or 
-            Part-TD-1, 2 checks, or 
             Quote-TD-1, 2 checks, or 
             RB-TD-1, 2 checks, or 
             RP-TD-1, 2 checks, or 
@@ -2717,7 +2693,7 @@
             Sect-TD-1, 2 checks, or 
             Span-TD-1, 2 checks, or 
             Strong-TD-1, 2 checks, or 
-            StructTreeRoot-TD-1, 5 checks, or 
+            StructTreeRoot-TD-1, 7 checks, or 
             Sub-TD-1, 2 checks, or 
             TBody-TD-1, 2 checks, or 
             TD-H-1, 1 check, or 
@@ -2764,7 +2740,6 @@
             (@clause = 'Link-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2774,7 +2749,7 @@
             (@clause = 'Sect-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TFoot' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-TFoot' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2812,7 +2787,6 @@
             Link-TFoot-1, 2 checks, or 
             Note-TFoot-1, 2 checks, or 
             P-TFoot-1, 2 checks, or 
-            Part-TFoot-1, 2 checks, or 
             Quote-TFoot-1, 2 checks, or 
             RB-TFoot-1, 2 checks, or 
             RP-TFoot-1, 2 checks, or 
@@ -2822,7 +2796,7 @@
             Sect-TFoot-1, 2 checks, or 
             Span-TFoot-1, 2 checks, or 
             Strong-TFoot-1, 2 checks, or 
-            StructTreeRoot-TFoot-1, 5 checks, or 
+            StructTreeRoot-TFoot-1, 7 checks, or 
             Sub-TFoot-1, 2 checks, or 
             TBody-TFoot-1, 2 checks, or 
             TD-TFoot-1, 2 checks, or 
@@ -2868,7 +2842,6 @@
             (@clause = 'Link-TH' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-TH' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-TH' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-TH' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-TH' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-TH' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2878,7 +2851,7 @@
             (@clause = 'Sect-TH' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-TH' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TH' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-TH' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-TH' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-TH' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-TH' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2917,7 +2890,6 @@
             Link-TH-1, 2 checks, or 
             Note-TH-1, 2 checks, or 
             P-TH-1, 2 checks, or 
-            Part-TH-1, 2 checks, or 
             Quote-TH-1, 2 checks, or 
             RB-TH-1, 2 checks, or 
             RP-TH-1, 2 checks, or 
@@ -2927,7 +2899,7 @@
             Sect-TH-1, 2 checks, or 
             Span-TH-1, 2 checks, or 
             Strong-TH-1, 2 checks, or 
-            StructTreeRoot-TH-1, 5 checks, or 
+            StructTreeRoot-TH-1, 7 checks, or 
             Sub-TH-1, 2 checks, or 
             TBody-TH-1, 2 checks, or 
             TD-TH-1, 2 checks, or 
@@ -2974,7 +2946,6 @@
             (@clause = 'Link-THead' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-THead' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-THead' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-THead' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-THead' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-THead' and @testNumber = '1' and @failedChecks = '2') or 
@@ -2984,7 +2955,7 @@
             (@clause = 'Sect-THead' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-THead' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-THead' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-THead' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-THead' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-THead' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-THead' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3022,7 +2993,6 @@
             Link-THead-1, 2 checks, or 
             Note-THead-1, 2 checks, or 
             P-THead-1, 2 checks, or 
-            Part-THead-1, 2 checks, or 
             Quote-THead-1, 2 checks, or 
             RB-THead-1, 2 checks, or 
             RP-THead-1, 2 checks, or 
@@ -3032,7 +3002,7 @@
             Sect-THead-1, 2 checks, or 
             Span-THead-1, 2 checks, or 
             Strong-THead-1, 2 checks, or 
-            StructTreeRoot-THead-1, 5 checks, or 
+            StructTreeRoot-THead-1, 7 checks, or 
             Sub-THead-1, 2 checks, or 
             TBody-THead-1, 2 checks, or 
             TD-THead-1, 2 checks, or 
@@ -3081,7 +3051,7 @@
             (@clause = 'Ruby-TOC' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-TOC' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TOC' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-TOC' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-TOC' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-TOC' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-TOC' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3122,7 +3092,7 @@
             Ruby-TOC-1, 2 checks, or 
             Span-TOC-1, 2 checks, or 
             Strong-TOC-1, 2 checks, or 
-            StructTreeRoot-TOC-1, 5 checks, or 
+            StructTreeRoot-TOC-1, 7 checks, or 
             Sub-TOC-1, 2 checks, or 
             TBody-TOC-1, 2 checks, or 
             TD-TOC-1, 2 checks, or 
@@ -3178,7 +3148,7 @@
             (@clause = 'Sect-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TOCI' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-TOCI' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3226,7 +3196,7 @@
             Sect-TOCI-1, 2 checks, or 
             Span-TOCI-1, 2 checks, or 
             Strong-TOCI-1, 2 checks, or 
-            StructTreeRoot-TOCI-1, 5 checks, or 
+            StructTreeRoot-TOCI-1, 7 checks, or 
             Sub-TOCI-1, 2 checks, or 
             TBody-TOCI-1, 2 checks, or 
             TD-TOCI-1, 2 checks, or 
@@ -3272,7 +3242,6 @@
             (@clause = 'Link-TR' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-TR' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-TR' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-TR' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-TR' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-TR' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3282,7 +3251,7 @@
             (@clause = 'Sect-TR' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-TR' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TR' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-TR' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-TR' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-TR' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TH-TR' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3317,7 +3286,6 @@
             Link-TR-1, 2 checks, or 
             Note-TR-1, 2 checks, or 
             P-TR-1, 2 checks, or 
-            Part-TR-1, 2 checks, or 
             Quote-TR-1, 2 checks, or 
             RB-TR-1, 2 checks, or 
             RP-TR-1, 2 checks, or 
@@ -3327,7 +3295,7 @@
             Sect-TR-1, 2 checks, or 
             Span-TR-1, 2 checks, or 
             Strong-TR-1, 2 checks, or 
-            StructTreeRoot-TR-1, 5 checks, or 
+            StructTreeRoot-TR-1, 7 checks, or 
             Sub-TR-1, 2 checks, or 
             TD-TR-1, 2 checks, or 
             TH-TR-1, 2 checks, or 
@@ -3362,7 +3330,7 @@
             (@clause = 'Ruby-Table' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-Table' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Table' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Table' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-Table' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-Table' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Table' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3393,7 +3361,7 @@
             Ruby-Table-1, 2 checks, or 
             Span-Table-1, 2 checks, or 
             Strong-Table-1, 2 checks, or 
-            StructTreeRoot-Table-1, 5 checks, or 
+            StructTreeRoot-Table-1, 7 checks, or 
             Sub-Table-1, 2 checks, or 
             TBody-Table-1, 2 checks, or 
             TFoot-Table-1, 2 checks, or 
@@ -3443,7 +3411,7 @@
             (@clause = 'Ruby-Title' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-Title' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Title' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Title' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-Title' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-Title' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-Title' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3486,7 +3454,7 @@
             Ruby-Title-1, 2 checks, or 
             Span-Title-1, 2 checks, or 
             Strong-Title-1, 2 checks, or 
-            StructTreeRoot-Title-1, 5 checks, or 
+            StructTreeRoot-Title-1, 7 checks, or 
             Sub-Title-1, 2 checks, or 
             TBody-Title-1, 2 checks, or 
             TD-Title-1, 2 checks, or 
@@ -3534,7 +3502,6 @@
             (@clause = 'Link-WP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-WP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-WP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-WP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-WP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-WP' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3544,7 +3511,7 @@
             (@clause = 'Sect-WP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-WP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-WP' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-WP' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-WP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-WP' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-WP' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3582,7 +3549,6 @@
             Link-WP-1, 2 checks, or 
             Note-WP-1, 2 checks, or 
             P-WP-1, 2 checks, or 
-            Part-WP-1, 2 checks, or 
             Quote-WP-1, 2 checks, or 
             RB-WP-1, 2 checks, or 
             RP-WP-1, 2 checks, or 
@@ -3592,7 +3558,7 @@
             Sect-WP-1, 2 checks, or 
             Span-WP-1, 2 checks, or 
             Strong-WP-1, 2 checks, or 
-            StructTreeRoot-WP-1, 5 checks, or 
+            StructTreeRoot-WP-1, 7 checks, or 
             Sub-WP-1, 2 checks, or 
             TBody-WP-1, 2 checks, or 
             TD-WP-1, 2 checks, or 
@@ -3638,7 +3604,6 @@
             (@clause = 'Link-WT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Note-WT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'P-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-WT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Quote-WT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-WT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-WT' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3648,7 +3613,7 @@
             (@clause = 'Sect-WT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Span-WT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Strong-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-WT' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-WT' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'Sub-WT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TBody-WT' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TD-WT' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3686,7 +3651,6 @@
             Link-WT-1, 2 checks, or 
             Note-WT-1, 2 checks, or 
             P-WT-1, 2 checks, or 
-            Part-WT-1, 2 checks, or 
             Quote-WT-1, 2 checks, or 
             RB-WT-1, 2 checks, or 
             RP-WT-1, 2 checks, or 
@@ -3696,7 +3660,7 @@
             Sect-WT-1, 2 checks, or 
             Span-WT-1, 2 checks, or 
             Strong-WT-1, 2 checks, or 
-            StructTreeRoot-WT-1, 5 checks, or 
+            StructTreeRoot-WT-1, 7 checks, or 
             Sub-WT-1, 2 checks, or 
             TBody-WT-1, 2 checks, or 
             TD-WT-1, 2 checks, or 
@@ -3730,14 +3694,13 @@
             (@clause = 'Index-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'L-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'LI-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Part-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RB-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RP-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'RT-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Reference-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Ruby-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'Sect-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Warichu' and @testNumber = '1' and @failedChecks = '5') or 
+            (@clause = 'StructTreeRoot-Warichu' and @testNumber = '1' and @failedChecks = '7') or 
             (@clause = 'TBody-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'TFoot-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
             (@clause = 'THead-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
@@ -3760,14 +3723,13 @@
             Index-Warichu-1, 2 checks, or 
             L-Warichu-1, 2 checks, or 
             LI-Warichu-1, 2 checks, or 
-            Part-Warichu-1, 2 checks, or 
             RB-Warichu-1, 2 checks, or 
             RP-Warichu-1, 2 checks, or 
             RT-Warichu-1, 2 checks, or 
             Reference-Warichu-1, 2 checks, or 
             Ruby-Warichu-1, 2 checks, or 
             Sect-Warichu-1, 2 checks, or 
-            StructTreeRoot-Warichu-1, 5 checks, or 
+            StructTreeRoot-Warichu-1, 7 checks, or 
             TBody-Warichu-1, 2 checks, or 
             TFoot-Warichu-1, 2 checks, or 
             THead-Warichu-1, 2 checks, or 
