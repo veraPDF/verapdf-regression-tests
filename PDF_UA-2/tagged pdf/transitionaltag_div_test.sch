@@ -13,7 +13,7 @@
 
     <sch:pattern name = "Checking the validationReport: rules">
         <sch:rule context="/report/jobs/job/validationReport/details">
-            <sch:assert test="(@failedRules = '1631')">Failed check, Expected: 1631</sch:assert>	
+            <sch:assert test="(@failedRules = '1630')">Failed check, Expected: 1630</sch:assert>	
         </sch:rule>
 
     </sch:pattern>
@@ -544,7 +544,6 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEDiv' or
-            (@clause = 'Div-content' and @testNumber = '1' and @failedChecks = '57') or 
             (@clause = 'Em-Div' and @testNumber = '1' and @failedChecks = '4') or 
             (@clause = 'H-Div' and @testNumber = '1' and @failedChecks = '4') or 
             (@clause = 'Hn-Div' and @testNumber = '1' and @failedChecks = '24') or 
@@ -570,7 +569,6 @@
             (@clause = 'WP-Div' and @testNumber = '1' and @failedChecks = '4') or 
             (@clause = 'WT-Div' and @testNumber = '1' and @failedChecks = '4') or 
             (@clause = 'Warichu-Div' and @testNumber = '1' and @failedChecks = '4')">Failed rules, Expected: 
-            Div-content-1, 57 checks, or 
             Em-Div-1, 4 checks, or 
             H-Div-1, 4 checks, or 
             Hn-Div-1, 24 checks, or 
