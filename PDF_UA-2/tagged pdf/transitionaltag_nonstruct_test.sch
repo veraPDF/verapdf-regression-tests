@@ -63,7 +63,7 @@
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'PDStructTreeRoot' or
             (@clause = '8.2.5.2' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'StructTreeRoot-Document' and @testNumber = '1' and @failedChecks = '1')">Failed rules, Expected: 
+            (@clause = 'Table 5. StructTreeRoot-Document' and @testNumber = '1' and @failedChecks = '1')">Failed rules, Expected: 
             8.2.5.2-1, 1 check, or 
             StructTreeRoot-Document-1, 1 check</sch:assert>
         </sch:rule>
@@ -74,19 +74,19 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEAnnot' or
-            (@clause = 'Form-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Annot' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Annot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Annot' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Form-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Annot' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Annot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Annot' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Form-Annot-1, 2 checks, or 
             L-Annot-1, 2 checks, or 
             LI-Annot-1, 2 checks, or 
@@ -108,39 +108,39 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEArt' or
-            (@clause = 'Art-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'BibEntry-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Art' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Art' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Art' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. BibEntry-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Art' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Art' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Art' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Art-Art-1, 2 checks, or 
             Art-H-1, 1 check, or 
             BibEntry-Art-1, 2 checks, or 
@@ -182,11 +182,11 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEArtifact' or
-            (@clause = 'Artifact-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Artifact-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Ruby-Artifact' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Artifact' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Warichu-Artifact' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Artifact-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Artifact-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Ruby-Artifact' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Artifact' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Warichu-Artifact' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Artifact-Caption-1, 1 check, or 
             Artifact-H-1, 1 check, or 
             Ruby-Artifact-1, 2 checks, or 
@@ -200,43 +200,43 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEAside' or
-            (@clause = 'Aside-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Aside-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'BibEntry-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-Aside' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Aside' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Aside' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Aside' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Aside-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Aside-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. BibEntry-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-Aside' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Aside' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Aside' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Aside' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Aside-Aside-1, 2 checks, or 
             Aside-Caption-1, 1 check, or 
             Aside-H-1, 1 check, or 
@@ -282,32 +282,32 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEBibEntry' or
-            (@clause = 'Art-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-BibEntry' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-BibEntry' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-BibEntry' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-BibEntry' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-BibEntry' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Art-BibEntry-1, 2 checks, or 
             Aside-BibEntry-1, 2 checks, or 
             BibEntry-BibEntry-1, 2 checks, or 
@@ -342,42 +342,42 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEBlockQuote' or
-            (@clause = 'BibEntry-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'BlockQuote-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Code-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-BlockQuote' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-BlockQuote' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-BlockQuote' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. BlockQuote-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Code-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-BlockQuote' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-BlockQuote' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-BlockQuote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-BlockQuote' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             BibEntry-BlockQuote-1, 2 checks, or 
             BlockQuote-Caption-1, 1 check, or 
             BlockQuote-H-1, 1 check, or 
@@ -422,38 +422,38 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SECaption' or
-            (@clause = 'BibEntry-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Code-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-Caption' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'LI-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Caption' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Caption' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Caption' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Code-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-Caption' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. LI-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Caption' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Caption' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Caption' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             BibEntry-Caption-1, 2 checks, or 
             Caption-Caption-1, 2 checks, or 
             Caption-H-1, 1 check, or 
@@ -494,27 +494,27 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SECode' or
-            (@clause = 'BibEntry-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Code' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Code' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Code' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Code' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Code' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Code' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             BibEntry-Code-1, 2 checks, or 
             Code-Code-1, 2 checks, or 
             Index-Code-1, 2 checks, or 
@@ -544,31 +544,31 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEDiv' or
-            (@clause = 'Em-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-Div' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'L-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Div' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Div' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Div' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Em-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-Div' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. L-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Div' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Div' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Div' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Em-Div-1, 2 checks, or 
             H-Div-1, 2 checks, or 
             Hn-Div-1, 12 checks, or 
@@ -602,50 +602,50 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEDocument' or
-            (@clause = 'Annot-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Em-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-Document' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sub-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Document' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Document' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Em-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-Document' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sub-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Document' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Document' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-Document-1, 2 checks, or 
             Art-Document-1, 2 checks, or 
             BibEntry-Document-1, 2 checks, or 
@@ -698,43 +698,43 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEDocumentFragment' or
-            (@clause = 'BibEntry-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Em-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-DocumentFragment' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-DocumentFragment' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-DocumentFragment' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Em-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-DocumentFragment' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-DocumentFragment' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-DocumentFragment' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-DocumentFragment' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             BibEntry-DocumentFragment-1, 2 checks, or 
             DocumentFragment-H-1, 1 check, or 
             Em-DocumentFragment-1, 2 checks, or 
@@ -780,26 +780,26 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEEm' or
-            (@clause = 'Art-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Em' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Em' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Em' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Em' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Em' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Em' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Art-Em-1, 2 checks, or 
             Aside-Em-1, 2 checks, or 
             BlockQuote-Em-1, 2 checks, or 
@@ -828,23 +828,23 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEFENote' or
-            (@clause = 'L-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-FENote' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-FENote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-FENote' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. L-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-FENote' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-FENote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-FENote' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             L-FENote-1, 2 checks, or 
             LI-FENote-1, 2 checks, or 
             RB-FENote-1, 2 checks, or 
@@ -871,26 +871,26 @@
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEFigure' or
             (@clause = '8.2.5.28.2' and @testNumber = '1' and @failedChecks = '115') or 
-            (@clause = 'Code-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Figure-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'L-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Figure' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Figure' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Figure' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Code-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Figure-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. L-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Figure' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Figure' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Figure' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             8.2.5.28.2-1, 115 checks, or 
             Code-Figure-1, 2 checks, or 
             Figure-Caption-1, 1 check, or 
@@ -920,24 +920,24 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEForm' or
-            (@clause = 'BibEntry-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Form-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Form' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Form' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Form' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Form-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Form' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Form' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Form' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             BibEntry-Form-1, 2 checks, or 
             Code-Form-1, 2 checks, or 
             Form-Caption-1, 1 check, or 
@@ -964,28 +964,28 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEFormula' or
-            (@clause = 'BibEntry-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Formula-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'L-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Formula' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Formula' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Formula' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Formula-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. L-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Formula' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Formula' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Formula' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             BibEntry-Formula-1, 2 checks, or 
             Code-Formula-1, 2 checks, or 
             Formula-Caption-1, 1 check, or 
@@ -1017,41 +1017,41 @@
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEH' or
             (@clause = '8.2.5.12' and @testNumber = '1' and @failedChecks = '115') or 
-            (@clause = 'BibEntry-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Art' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'H-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Sect' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Hn-H' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'L-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-H' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-H' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-H' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Art' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. H-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Sect' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Hn-H' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. L-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-H' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-H' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-H' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             8.2.5.12-1, 115 checks, or 
             BibEntry-H-1, 2 checks, or 
             Code-H-1, 2 checks, or 
@@ -1096,41 +1096,41 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEHn' or
-            (@clause = 'BibEntry-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Code-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Em-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'FENote-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Form-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'H-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Hn-Art' and @testNumber = '1' and @failedChecks = '6') or 
-            (@clause = 'Hn-Hn' and @testNumber = '1' and @failedChecks = '72') or 
-            (@clause = 'Hn-Sect' and @testNumber = '1' and @failedChecks = '6') or 
-            (@clause = 'L-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'LI-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Lbl-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Note-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'P-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Quote-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'RB-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'RP-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'RT-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Reference-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Ruby-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Span-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Strong-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'StructTreeRoot-Hn' and @testNumber = '1' and @failedChecks = '42') or 
-            (@clause = 'Sub-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'TBody-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'TFoot-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'THead-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'TOC-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'TOCI-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'TR-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Table-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Title-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'WP-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'WT-Hn' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Warichu-Hn' and @testNumber = '1' and @failedChecks = '12')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Code-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Em-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. FENote-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Form-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. H-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Hn-Art' and @testNumber = '1' and @failedChecks = '6') or 
+            (@clause = 'Table 5. Hn-Hn' and @testNumber = '1' and @failedChecks = '72') or 
+            (@clause = 'Table 5. Hn-Sect' and @testNumber = '1' and @failedChecks = '6') or 
+            (@clause = 'Table 5. L-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. LI-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Lbl-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Note-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. P-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Quote-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. RB-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. RP-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. RT-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Reference-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Ruby-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Span-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Strong-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. StructTreeRoot-Hn' and @testNumber = '1' and @failedChecks = '42') or 
+            (@clause = 'Table 5. Sub-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. TBody-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. TFoot-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. THead-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. TOC-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. TOCI-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. TR-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Table-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Title-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. WP-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. WT-Hn' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Warichu-Hn' and @testNumber = '1' and @failedChecks = '12')">Failed rules, Expected: 
             BibEntry-Hn-1, 12 checks, or 
             Code-Hn-1, 12 checks, or 
             Em-Hn-1, 12 checks, or 
@@ -1174,41 +1174,41 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEIndex' or
-            (@clause = 'Annot-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-Index' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Index' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Index' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Index' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-Index' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Index' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Index' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Index' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-Index-1, 2 checks, or 
             BibEntry-Index-1, 2 checks, or 
             Code-Index-1, 2 checks, or 
@@ -1252,33 +1252,33 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEL' or
-            (@clause = 'BibEntry-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-L' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'L-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'LI-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-L' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-L' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-L' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-L' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. L-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. LI-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-L' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-L' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-L' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             BibEntry-L-1, 2 checks, or 
             Code-L-1, 2 checks, or 
             Em-L-1, 2 checks, or 
@@ -1314,55 +1314,55 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SELBody' or
-            (@clause = 'Annot-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-LBody' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'LBody-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'LBody-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-LBody' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-LBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-LBody' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-LBody' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. LBody-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. LBody-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-LBody' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-LBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-LBody' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-LBody-1, 2 checks, or 
             Art-LBody-1, 2 checks, or 
             Aside-LBody-1, 2 checks, or 
@@ -1420,53 +1420,53 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SELI' or
-            (@clause = 'Annot-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-LI' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-LI' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-LI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-LI' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-LI' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-LI' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-LI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-LI' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-LI-1, 2 checks, or 
             Art-LI-1, 2 checks, or 
             Aside-LI-1, 2 checks, or 
@@ -1522,27 +1522,27 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SELbl' or
-            (@clause = 'Code-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Lbl' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Lbl' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Code-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Lbl' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Lbl' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Lbl' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Code-Lbl-1, 2 checks, or 
             Document-Lbl-1, 2 checks, or 
             DocumentFragment-Lbl-1, 2 checks, or 
@@ -1572,21 +1572,21 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SELink' or
-            (@clause = 'Form-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Link' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Link' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Link' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Form-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Link' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Link' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Link' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Form-Link-1, 2 checks, or 
             Index-Link-1, 2 checks, or 
             L-Link-1, 2 checks, or 
@@ -1610,7 +1610,7 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SENonStruct' or
-            (@clause = 'StructTreeRoot-NonStruct' and @testNumber = '1' and @failedChecks = '13')">Failed rules, Expected: 
+            (@clause = 'Table 5. StructTreeRoot-NonStruct' and @testNumber = '1' and @failedChecks = '13')">Failed rules, Expected: 
             StructTreeRoot-NonStruct-1, 13 checks</sch:assert>
         </sch:rule>
 
@@ -1621,23 +1621,23 @@
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SENote' or
             (@clause = '8.2.5.14' and @testNumber = '1' and @failedChecks = '115') or 
-            (@clause = 'L-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Note' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Note' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Note' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. L-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Note' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Note' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Note' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             8.2.5.14-1, 115 checks, or 
             L-Note-1, 2 checks, or 
             LI-Note-1, 2 checks, or 
@@ -1664,34 +1664,34 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEP' or
-            (@clause = 'Code-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-P' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'L-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-P' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-P' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-P' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Code-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-P' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. L-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-P' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-P' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-P' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Code-P-1, 2 checks, or 
             Em-P-1, 2 checks, or 
             Form-P-1, 2 checks, or 
@@ -1728,35 +1728,35 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEPart' or
-            (@clause = 'Em-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-Part' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'L-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Part' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Part' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Part' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Em-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-Part' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. L-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Part' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Part' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Part' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Em-Part-1, 2 checks, or 
             H-Part-1, 2 checks, or 
             Hn-Part-1, 12 checks, or 
@@ -1794,8 +1794,8 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEPrivate' or
-            (@clause = 'Annot-Private' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Private' and @testNumber = '1' and @failedChecks = '7')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-Private' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Private' and @testNumber = '1' and @failedChecks = '7')">Failed rules, Expected: 
             Annot-Private-1, 2 checks, or 
             StructTreeRoot-Private-1, 7 checks</sch:assert>
         </sch:rule>
@@ -1806,29 +1806,29 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEQuote' or
-            (@clause = 'Art-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Quote' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Quote' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Quote' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Quote' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Quote' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Quote' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Art-Quote-1, 2 checks, or 
             Aside-Quote-1, 2 checks, or 
             BibEntry-Quote-1, 2 checks, or 
@@ -1860,53 +1860,53 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SERB' or
-            (@clause = 'Annot-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-RB' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-RB' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-RB' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-RB' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-RB' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-RB' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-RB' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-RB' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-RB-1, 2 checks, or 
             Art-RB-1, 2 checks, or 
             Aside-RB-1, 2 checks, or 
@@ -1962,53 +1962,53 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SERP' or
-            (@clause = 'Annot-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-RP' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-RP' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-RP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-RP' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-RP' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-RP' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-RP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-RP' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-RP-1, 2 checks, or 
             Art-RP-1, 2 checks, or 
             Aside-RP-1, 2 checks, or 
@@ -2064,53 +2064,53 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SERT' or
-            (@clause = 'Annot-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-RT' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-RT' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-RT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-RT' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-RT' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-RT' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-RT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-RT' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-RT-1, 2 checks, or 
             Art-RT-1, 2 checks, or 
             Aside-RT-1, 2 checks, or 
@@ -2166,22 +2166,22 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEReference' or
-            (@clause = 'Art-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Reference' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Reference' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Reference' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Reference' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Reference' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Reference' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Art-Reference-1, 2 checks, or 
             Document-Reference-1, 2 checks, or 
             DocumentFragment-Reference-1, 2 checks, or 
@@ -2207,34 +2207,34 @@
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SERuby' or
             (@clause = '8.2.5.23' and @testNumber = '1' and @failedChecks = '115') or 
-            (@clause = 'Art-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Ruby' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Ruby' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Ruby' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Ruby' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Ruby' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             8.2.5.23-1, 115 checks, or 
             Art-Ruby-1, 2 checks, or 
             Aside-Ruby-1, 2 checks, or 
@@ -2272,37 +2272,37 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SESect' or
-            (@clause = 'BibEntry-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Span-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Sect' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Sect' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Sect' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Span-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Sect' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Sect' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Sect' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             BibEntry-Sect-1, 2 checks, or 
             Code-Sect-1, 2 checks, or 
             Em-Sect-1, 2 checks, or 
@@ -2352,26 +2352,26 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SESpan' or
-            (@clause = 'Art-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Span' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Span' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Span' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Span' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Span' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Span' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Art-Span-1, 2 checks, or 
             Aside-Span-1, 2 checks, or 
             BlockQuote-Span-1, 2 checks, or 
@@ -2400,26 +2400,26 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEStrong' or
-            (@clause = 'Art-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Strong' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Strong' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Strong' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Strong' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Strong' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Strong' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Art-Strong-1, 2 checks, or 
             Aside-Strong-1, 2 checks, or 
             BlockQuote-Strong-1, 2 checks, or 
@@ -2448,32 +2448,32 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SESub' or
-            (@clause = 'Art-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Sub' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-Sub' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Sub' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Sub' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-Sub' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Sub' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Art-Sub-1, 2 checks, or 
             Aside-Sub-1, 2 checks, or 
             BibEntry-Sub-1, 2 checks, or 
@@ -2508,53 +2508,53 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETBody' or
-            (@clause = 'Annot-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-TBody' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TBody' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-TBody' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-TBody' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-TBody' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-TBody' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-TBody' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-TBody' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-TBody-1, 2 checks, or 
             Art-TBody-1, 2 checks, or 
             Aside-TBody-1, 2 checks, or 
@@ -2610,54 +2610,54 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETD' or
-            (@clause = 'Annot-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-TD' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TD' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'TD-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-TD' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-TD' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-TD' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-TD' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. TD-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-TD' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-TD' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-TD-1, 2 checks, or 
             Art-TD-1, 2 checks, or 
             Aside-TD-1, 2 checks, or 
@@ -2714,53 +2714,53 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETFoot' or
-            (@clause = 'Annot-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-TFoot' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TFoot' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-TFoot' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-TFoot' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-TFoot' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-TFoot' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-TFoot' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-TFoot-1, 2 checks, or 
             Art-TFoot-1, 2 checks, or 
             Aside-TFoot-1, 2 checks, or 
@@ -2816,54 +2816,54 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETH' or
-            (@clause = 'Annot-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-TH' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TH' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-H' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'TH-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-TH' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-TH' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-TH' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-TH' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-H' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. TH-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-TH' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-TH' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-TH-1, 2 checks, or 
             Art-TH-1, 2 checks, or 
             Aside-TH-1, 2 checks, or 
@@ -2920,53 +2920,53 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETHead' or
-            (@clause = 'Annot-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-THead' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-THead' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-THead' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-THead' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-THead' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-THead' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-THead' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-THead' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-THead-1, 2 checks, or 
             Art-THead-1, 2 checks, or 
             Aside-THead-1, 2 checks, or 
@@ -3022,47 +3022,47 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETOC' or
-            (@clause = 'Annot-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-TOC' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TOC' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'TR-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-TOC' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-TOC' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-TOC' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-TOC' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. TR-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-TOC' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-TOC' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-TOC-1, 2 checks, or 
             BibEntry-TOC-1, 2 checks, or 
             Caption-TOC-1, 2 checks, or 
@@ -3113,53 +3113,53 @@
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETOCI' or
             (@clause = '8.2.5.8' and @testNumber = '1' and @failedChecks = '115') or 
-            (@clause = 'Annot-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-TOCI' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TOCI' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-TOCI' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-TOCI' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-TOCI' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-TOCI' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-TOCI' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             8.2.5.8-1, 115 checks, or 
             Annot-TOCI-1, 2 checks, or 
             Art-TOCI-1, 2 checks, or 
@@ -3216,50 +3216,50 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETR' or
-            (@clause = 'Annot-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-TR' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-TR' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-TR' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-TR' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-TR' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-TR' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-TR' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-TR' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-TR-1, 2 checks, or 
             Art-TR-1, 2 checks, or 
             Aside-TR-1, 2 checks, or 
@@ -3312,37 +3312,37 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETable' or
-            (@clause = 'BibEntry-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-Table' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'L-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Table' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Table-TFoot' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Table-THead' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Table-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Table' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Table' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. BibEntry-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-Table' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. L-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Table' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Table-TFoot' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Table-THead' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Table-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Table' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Table' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             BibEntry-Table-1, 2 checks, or 
             Code-Table-1, 2 checks, or 
             Em-Table-1, 2 checks, or 
@@ -3382,49 +3382,49 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SETitle' or
-            (@clause = 'Aside-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-Title' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Title' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-Caption' and @testNumber = '1' and @failedChecks = '1') or 
-            (@clause = 'Title-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Title' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Title' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Aside-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-Title' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Title' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-Caption' and @testNumber = '1' and @failedChecks = '1') or 
+            (@clause = 'Table 5. Title-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Title' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Title' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Aside-Title-1, 2 checks, or 
             BibEntry-Title-1, 2 checks, or 
             BlockQuote-Title-1, 2 checks, or 
@@ -3476,53 +3476,53 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEWP' or
-            (@clause = 'Annot-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-WP' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-WP' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-WP' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-WP' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-WP' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-WP' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-WP' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-WP' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-WP-1, 2 checks, or 
             Art-WP-1, 2 checks, or 
             Aside-WP-1, 2 checks, or 
@@ -3578,53 +3578,53 @@
 
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEWT' or
-            (@clause = 'Annot-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Art-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Caption-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Em-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'FENote-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Figure-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Formula-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'H-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Hn-WT' and @testNumber = '1' and @failedChecks = '12') or 
-            (@clause = 'Index-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LBody-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Lbl-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Link-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Note-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'P-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Quote-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Span-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Strong-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-WT' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'Sub-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TBody-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TD-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TH-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Title-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-WT' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-WT' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Annot-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Art-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Caption-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Em-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. FENote-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Figure-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Formula-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. H-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Hn-WT' and @testNumber = '1' and @failedChecks = '12') or 
+            (@clause = 'Table 5. Index-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LBody-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Lbl-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Link-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Note-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. P-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Quote-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Span-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Strong-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-WT' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. Sub-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TBody-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TD-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TH-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Title-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-WT' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-WT' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             Annot-WT-1, 2 checks, or 
             Art-WT-1, 2 checks, or 
             Aside-WT-1, 2 checks, or 
@@ -3681,34 +3681,34 @@
         <sch:rule context="/report/jobs/job/validationReport/details/rule">
             <sch:assert test="object != 'SEWarichu' or
             (@clause = '8.2.5.24' and @testNumber = '1' and @failedChecks = '115') or 
-            (@clause = 'Art-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Aside-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BibEntry-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'BlockQuote-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Code-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Document-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'DocumentFragment-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Form-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Index-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'L-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'LI-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RB-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RP-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'RT-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Reference-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Ruby-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Sect-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'StructTreeRoot-Warichu' and @testNumber = '1' and @failedChecks = '7') or 
-            (@clause = 'TBody-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TFoot-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'THead-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOC-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TOCI-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'TR-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Table-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WP-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'WT-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
-            (@clause = 'Warichu-Warichu' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
+            (@clause = 'Table 5. Art-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Aside-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BibEntry-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. BlockQuote-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Code-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Document-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. DocumentFragment-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Form-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Index-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. L-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. LI-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RB-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RP-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. RT-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Reference-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Ruby-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Sect-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. StructTreeRoot-Warichu' and @testNumber = '1' and @failedChecks = '7') or 
+            (@clause = 'Table 5. TBody-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TFoot-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. THead-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOC-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TOCI-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. TR-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Table-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WP-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. WT-Warichu' and @testNumber = '1' and @failedChecks = '2') or 
+            (@clause = 'Table 5. Warichu-Warichu' and @testNumber = '1' and @failedChecks = '2')">Failed rules, Expected: 
             8.2.5.24-1, 115 checks, or 
             Art-Warichu-1, 2 checks, or 
             Aside-Warichu-1, 2 checks, or 
