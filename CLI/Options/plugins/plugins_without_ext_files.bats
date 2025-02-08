@@ -10,7 +10,7 @@ setup() {
 
     cd $BATS_TEST_TMPDIR
 
-    LAST_BUILD=$(get_last_plugins_version $(verapdf_folder))
+    LAST_BUILD=$(get_last_plugins_version "1.28rc")
 
 }
 
