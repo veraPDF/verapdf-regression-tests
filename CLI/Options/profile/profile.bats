@@ -21,7 +21,7 @@ setup() {
 
 profile_check() {
     echo "Running: $1" >&3
-    run verapdf/verapdf --profile verapdf/profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-4.xml $FILE_PATH/$1
+    run verapdf/verapdf --profile verapdf/profiles/veraPDF-validation-profiles-rc-1.28/PDF_A/PDFA-4.xml $FILE_PATH/$1
     assert_output --partial 'profileName="PDF/A-4 validation profile"'
     [ "$status" -eq 1 ]
 }

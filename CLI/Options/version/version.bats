@@ -14,6 +14,6 @@ setup() {
     [ "$status" -eq 0 ]
     assert_output --partial 'Developed and released by the veraPDF Consortium'
     assert_output --partial 'Funded by the PREFORMA project'
-    assert_output --regexp '^veraPDF [1-9].[1-9][0-9].[1-9]([0-9][0-9]?)?'
+    assert_output --regexp '^veraPDF [1-9].[1-9][0-9].[0-9]-RC[1-9]([0-9][0-9]?)?'
 
 }

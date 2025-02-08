@@ -39,15 +39,9 @@ verapdf_folder() {
 get_plugin_version() {
     PLUGIN_NAME=$1
 
-    currentIFS=$IFS
-    IFS='-'
-    plugin_info=$(cat "$PROJECT_ROOT/verapdf/config/plugins.xml" | grep "$PLUGIN_NAME")
-    read -r -a array <<<"$plugin_info"
-    version_info="${array[3]}"
-    IFS='.'
-    read -r -a array <<<"$version_info"
-    PLUGIN_VERSION="${array[0]}"."${array[1]}"."${array[2]}"
-    IFS=$currentIFS
+    PLUGIN_VERSION=$(cat "$PROJECT_ROOT/verapdf/config/plugins.xml" | grep "$PLUGIN_NAME" | grep -o [0-9].[0-9][0-9].[0-9]-RC[0-9])
+
+    echo "PLUGIN_VERSION: "$PLUGIN_VERSION >&3
 
     echo "$PLUGIN_VERSION"
 }

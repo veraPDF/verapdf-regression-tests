@@ -5,9 +5,9 @@
 timestamp=$1
 cd $timestamp
 
-echo "#Downloading veraPDF, latest dev version ... unziping to $PWD" 
-curl -LO https://software.verapdf.org/dev/verapdf-installer.zip
-unzip verapdf-installer.zip
+echo "#Downloading veraPDF, latest rc version ... unziping to $PWD" 
+curl -LO https://software.verapdf.org/releases/verapdf-installer-rc.zip
+unzip verapdf-installer-rc.zip
 
 #Definition of the variable, pointing to the veraPDF directory with installation files
 veradir=$(ls | grep verapdf-greenfield)
@@ -18,11 +18,11 @@ export veraPATH="${timestamp}/../verapdf"
 echo "veraPATH: $veraPATH" 
 
 #Prepare  of the file: auto-install.xml
-# curl -LO  https://raw.githubusercontent.com/veraPDF/veraPDF-regression-tests/integration/TOOLS/auto-install.xml
+# curl -LO  https://raw.githubusercontent.com/veraPDF/veraPDF-regression-tests/rc/1.28/TOOLS/auto-install.xml
 # OR
 #cp /home/test/auto-install.xml ./
 
-curl -LO  https://raw.githubusercontent.com/veraPDF/veraPDF-regression-tests/integration/tools/auto-install.xml
+curl -LO  https://raw.githubusercontent.com/veraPDF/veraPDF-regression-tests/rc/1.28/tools/auto-install.xml
 
 #Definition of the 'PATH' to install veraPDF using the auto-install.xml file
 sed -i '5 c\        <installpath>'$(echo $veraPATH)'</installpath>' ./auto-install.xml

@@ -6,7 +6,7 @@ setup() {
 
 # https://github.com/veraPDF/veraPDF-library/issues/399
 @test "#399, CLI: --profile argument, external options check" {
-    run verapdf/verapdf -p verapdf/profiles/veraPDF-validation-profiles-integration/PDF_A/PDFA-4.xml $BATS_TEST_DIRNAME/a.pdf
+    run verapdf/verapdf -p verapdf/profiles/veraPDF-validation-profiles-rc-1.28/PDF_A/PDFA-4.xml $BATS_TEST_DIRNAME/a.pdf
 
     [ "$status" -eq 0 ]
     assert_output --partial '<batchSummary totalJobs="1" failedToParse="0" encrypted="0" outOfMemory="0" veraExceptions="0">'
